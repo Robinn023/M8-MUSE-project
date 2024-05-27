@@ -86,7 +86,6 @@ footer {
     padding: 20px;
     position: absolute;
     width: 100%;
-    bottom: 0;
 }
 
 address {
@@ -94,12 +93,14 @@ address {
 }
 
 .infosectie{
-    height:100rem;
+    height:200rem;
     width:100vw;
     background:#B9A17D;
-    padding-top:6rem;
     display:flex;
     justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:4rem;
 }
 
 .infoblok1{
@@ -111,22 +112,91 @@ address {
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
+    margin-bottom:8rem;
+}
+
+.infoblok2{
+    height:45rem;
+    width:130rem;
+    border:0.6rem solid #D6BE8A;
+    border-radius:4rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:8rem;
 }
 
 .fotoblok{
     width:45%;
     height:90%;
-    background:blue;
+    background:#A99263;
+    border-radius:4rem;
     margin-right:1rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .textblok{
     display:flex;
-    padding:1rem;
+    padding:2rem;
     align-items:center;
     justify-content:center;
     width:45%;
     height:90%;
-    background:red;
+    font-size:1.5rem;
+    background:#A99263;
+    border-radius:4rem;
     margin-left:1rem;
+}
+
+
+.textblok2{
+    display:flex;
+    padding:2rem;
+    align-items:center;
+    justify-content:center;
+    width:45%;
+    height:90%;
+    font-size:1.5rem;
+    margin-right:1rem;
+    background:#A99263;
+    border-radius:4rem;
+}
+
+
+.fotoblok2{
+    width:45%;
+    height:90%;
+    margin-left:1rem;
+    background:#A99263;
+    border-radius:4rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.jurkimg{
+    width:40%;
+    height:90%;
+    border-radius:1rem;
+}
+
+.schipimg{
+    width:80%;
+    height:90%;
+    border-radius:1rem;
+}
+
+.vlagimg{
+    width:80%;
+    height:90%;
+    border-radius:1rem;
+}
+
+.lenapeimg{
+    width:50%;
+    height:90%;
+    border-radius:1rem;
 }
