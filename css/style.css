@@ -92,3 +92,41 @@ footer {
 address {
     margin: 0;
 }
+
+.infosectie{
+    height:100rem;
+    width:100vw;
+    background:#B9A17D;
+    padding-top:6rem;
+    display:flex;
+    justify-content:center;
+}
+
+.infoblok1{
+    height:45rem;
+    width:130rem;
+    border:0.6rem solid #D6BE8A;
+    border-radius:4rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+
+.fotoblok{
+    width:45%;
+    height:90%;
+    background:blue;
+    margin-right:1rem;
+}
+
+.textblok{
+    display:flex;
+    padding:1rem;
+    align-items:center;
+    justify-content:center;
+    width:45%;
+    height:90%;
+    background:red;
+    margin-left:1rem;
+}
