@@ -54,6 +54,7 @@ header > h1{
     overflow-x: hidden;
     padding-top: 60px;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .dropdown-content a {
