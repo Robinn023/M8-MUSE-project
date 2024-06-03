@@ -274,3 +274,63 @@ address {
     height:90%;
     border-radius:1rem;
 }
+
+.contact-foto > img{
+    width:80%;
+}
+
+.contact-block-1{
+    height:50rem;
+    width:130rem;
+    border:0.6rem solid #D6BE8A;
+    border-radius:4rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 10rem;
+}
+.contact-Info-section{
+    height:130vh;
+    width:100vw;
+    background:#B9A17D;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:4rem;
+}
+
+.contact-foto{
+    width:45%;
+    height:90%;
+    background:#eee;
+    border-radius:4rem;
+    margin-right:1rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.name-list > li > img{
+    width :10rem;
+    border-radius: 50%;
+}
+
+.name-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 35rem;
+    margin-right: 30rem;
+}
+
+.name-list > li{
+    font-size: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: #eee;
+}
+
+
