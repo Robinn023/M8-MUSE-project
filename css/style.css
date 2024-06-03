@@ -312,7 +312,7 @@ address {
     justify-content:center;
 }
 
-.name-list > li > img{
+.name-list > a > li > img{
     width :10rem;
     border-radius: 50%;
 }
@@ -325,12 +325,16 @@ address {
     margin-right: 30rem;
 }
 
-.name-list > li{
+.name-list > a > li{
     font-size: 2rem;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     color: #eee;
+}
+
+.name-list > a{
+    text-decoration: none;
 }
 
 
