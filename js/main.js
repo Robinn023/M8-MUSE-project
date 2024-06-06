@@ -20,3 +20,18 @@ function toggleDropdown() {
     var dropdown = document.getElementById("myDropdown");
     dropdown.classList.toggle("show");
 }
+
+let knop = document.getElementById("knop");
+let figure = document.getElementById("figure");
+let f = true;
+
+knop.onclick = function(){
+    if(f){
+        figure.style.display = "flex";
+        f = false;
+    }
+    else{
+        figure.style.display = "none";
+        f = true;
+    }
+}
