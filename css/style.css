@@ -41,7 +41,14 @@ header > h1{
     cursor: pointer;
     font-size: 2rem;
     padding: 10px;
+    transition: transform 0.3s, background-color 0.3s;
 }
+
+.dropbtn:hover {
+    transform: scale(1.1);
+    background-color: #5D4E37;
+}
+
 
 .dropdown-content {
     display: none;
