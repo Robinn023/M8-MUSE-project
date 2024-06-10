@@ -34,4 +34,8 @@ knop.onclick = function(){
         figure.style.display = "none";
         f = true;
     }
-}
+} 
+
+
+
+
