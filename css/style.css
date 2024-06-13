@@ -15,6 +15,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url(../Img-gifs/background.png);
 }
 
 header {
@@ -22,8 +23,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #626A73;
-    color: white;
+    background-color: #4e2016;
+    color: #d8bdb6;
 }
 
 header > h1{
@@ -35,8 +36,8 @@ header > h1{
 }
 
 .dropbtn {
-    background-color: #78745D;
-    color: white;
+    background-color: #79463a;
+    color: #d8bdb6;
     border: none;
     cursor: pointer;
     font-size: 2rem;
@@ -46,7 +47,7 @@ header > h1{
 
 .dropbtn:hover {
     transform: scale(1.1);
-    background-color: #5D4E37;
+    background-color: #381801;
 }
 
 
@@ -57,7 +58,7 @@ header > h1{
     right: 0;
     width: 250px;
     height: 100%;
-    background-color: #78745D;
+    background-color: #693225;
     overflow-x: hidden;
     padding-top: 60px;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
@@ -88,17 +89,28 @@ header > h1{
 }
 
 .kaartimage {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .kaartimage img {
-    width: 100%;
-    height: auto;
+    width: 80%;
+    height: 50%;
     object-fit: fill; 
-    position: relative;
+    
+}
+
+.homeinfoblok {
+    height:50rem;
+    width:40rem;
+    border:#79463a;
+    border-radius:4rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:8rem;
 }
 
 .info {
@@ -119,100 +131,12 @@ header > h1{
     transform: translate(-50%, -50%);
 }
 
-.sections-container {
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.section {
-    flex: 1;
-    opacity: 0.8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 0.4rem solid #ccc;
-}
-
-footer {
-    background-color: #626A73;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: absolute;
-    width: 100%;
-
-}
-
-address {
-    margin: 0;
-}
-
-.infosectie{
-    height:260rem;
-    width:100vw;
-    background:#B9A17D;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    padding:4rem;
-}
-
-.infoblok1{
-    height:50rem;
-    width:130rem;
-    border:0.6rem solid #D6BE8A;
+.Textblok{
+    width: 50%;
+    height: 42vw;
+    padding: 4rem;
     border-radius:4rem;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-items:center;
-    margin-bottom:8rem;
-}
-
-.infoblok2{
-    height:50rem;
-    width:130rem;
-    border:0.6rem solid #D6BE8A;
-    border-radius:4rem;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-items:center;
-    margin-bottom:8rem;
-}
-
-.fotoblok{
-    width:45%;
-    height:90%;
-    background:#A99263;
-    border-radius:4rem;
-    margin-right:1rem;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-.textblok{
-    flex-wrap: wrap;
-    display:flex;
-    padding:2rem;
-    align-items:center;
-    justify-content:center;
-    width:45%;
-    height:90%;
-    font-size:1.5rem;
-    background:#A99263;
-    border-radius:4rem;
-    margin-left:1rem;
-    text-align:center;
+    background:#79463a;
 }
 
 .textblok > p{
@@ -225,180 +149,27 @@ address {
     
 }
 
-.textblok2{
-    display:flex;
-    padding:2rem;
-    align-items:center;
-    justify-content:center;
-    width:45%;
-    height:90%;
-    font-size:1.5rem;
-    margin-right:1rem;
-    background:#A99263;
+.Tijdline{
+    width: 50%;
+    height: 12vw;
+    padding: 4rem;
     border-radius:4rem;
+    background:#79463a;
 }
 
-
-.fotoblok2{
-    width:45%;
-    height:90%;
-    margin-left:1rem;
-    background:#A99263;
+.Infotijdline{    
+    width: 50%;
+    height: 20vw;
+    padding: 4rem;
     border-radius:4rem;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    background:#79463a;
 }
 
-.infoblok3{
-    height:60rem;
-    width:130rem;
-    border:0.6rem solid #D6BE8A;
-    border-radius:4rem;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-items:center;
-    margin-bottom:8rem;
-}
-
-
-.textblok3{
-    display:flex;
-    flex-wrap:wrap;
-    padding:2rem;
-    align-items:center;
-    justify-content:center;
-    width:45%;
-    height:90%;
-    font-size:1.5rem;
-    margin-right:1rem;
-    background:#A99263;
-    border-radius:4rem;
-}
-
-
-.fotoblok3{
-    width:45%;
-    height:90%;
-    margin-left:1rem;
-    background:#A99263;
-    border-radius:4rem;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-.fotoblok3 > img{
-    width:35rem;
-}
-
-.textblok3 > h3{
-    font-size:1.4;
-    font-weight: 100;
-}
-
-.jurkimg{
-    width:40%;
-    height:90%;
-    border-radius:1rem;
-}
-
-.schipimg{
-    width:80%;
-    height:90%;
-    border-radius:1rem;
-}
-
-.vlagimg{
-    width:80%;
-    height:90%;
-    border-radius:1rem;
-}
-
-.lenapeimg{
-    width:50%;
-    height:90%;
-    border-radius:1rem;
-}
-
-.contact-foto > img{
-    width:80%;
-}
-
-.contact-block-1{
-    height:50rem;
-    width:130rem;
-    border:0.6rem solid #D6BE8A;
-    border-radius:4rem;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-items:center;
-    margin-bottom: 10rem;
-}
-.contact-Info-section{
-    height:130vh;
-    width:100vw;
-    background:#B9A17D;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    padding:4rem;
-}
-
-.contact-foto{
-    width:45%;
-    height:90%;
-    background:#eee;
-    border-radius:4rem;
-    margin-right:1rem;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-.name-list > a > li > img{
-    width :10rem;
-    border-radius: 50%;
-}
-
-.name-list{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 35rem;
-    margin-right: 30rem;
-}
-
-.name-list > a > li{
-    font-size: 2rem;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    color: #eee;
-}
-
-.name-list > a{
-    text-decoration: none;
-}
-
-
-
-
-#knop{
+footer {
+    background-color: #4e2016;
+    color: white;
+    text-align: center;
+    padding: 50px;
     position: absolute;
-    top: 65%;
-    left: 25%;
-    border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
-    z-index: 4;
-    background: blue;
-    cursor: pointer;
-}
-
-.info__object{
-    display: none;
+    width: 100%;
 }
