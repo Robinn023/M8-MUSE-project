@@ -88,48 +88,31 @@ header > h1{
     right: 0;
     opacity: 1;
 }
-.infoblok1{
-    height:50rem;
-    width:130rem;
-    border:0.6rem solid #8a574a;
-    border-radius:4rem;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-items:center;
-    margin-bottom:8rem;
-}
 
-.infoblok2{
-    height:50rem;
-    width:130rem;
-    border:0.6rem solid #8a574a;
-    border-radius:4rem;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-items:center;
-    margin-bottom:8rem;
-}
-
-/* Algemene styling voor de infoblok */
-.infoblok {
-    width: 130rem;
-    height: 50rem;
-    border: 0.6rem solid #8a574a;
-    border-radius: 4rem;
+.infosectie{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem; /* Voeg 2rem padding toe aan alle kanten */
-    box-sizing: border-box; /* Zorg ervoor dat padding wordt meegerekend in de breedte en hoogte */
-    margin-bottom: 8rem;
-    background: #fff; /* Optionele achtergrondkleur */
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3rem;
 }
 
-/* Styling voor de textblok */
+.infoblok{
+    height: 50%;
+    max-width: 90%;
+    border:0.6rem solid #8a574a;
+    border-radius:4rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:8rem;
+    flex-direction: column;
+}
+
 .textblok {
-    width: 98%;
+    width: 97%;
     height: 95%;
     background: #8a574a;
     display: flex;
@@ -137,8 +120,17 @@ header > h1{
     justify-content: center;
     padding: 2rem;
     border-radius: 4rem;
-    box-sizing: border-box; /* Zorg ervoor dat padding wordt meegerekend in de breedte en hoogte */
-    overflow: hidden; /* Zorg ervoor dat niets buiten de container komt */
+    box-sizing: border-box;
+    overflow: hidden; 
+    margin: 2rem;
+}
+
+.text-content > p {
+    font-size: 1.2rem;
+}
+
+.text-content > h1 {
+    margin-bottom: 1.5rem;
 }
 
 .textblok img {
@@ -147,13 +139,13 @@ header > h1{
     width: auto;
     height: auto;
     border-radius: 4rem;
-    object-fit: contain; /* Zorgt ervoor dat de afbeelding binnen de container past */
+    object-fit: contain;
 }
 
 .text-content {
     text-align: center;
     flex: 1;
-    padding: 0 2rem; /* Voeg wat ruimte toe aan beide zijden van de tekst */
+    padding: 0 2rem; 
     color: #FFFFFF;
     max-width: 100%;
 }
@@ -191,19 +183,6 @@ header > h1{
     margin-left: 10rem;
     margin-right: 10rem;
 }
-
-.infoblok3{
-    height:60rem;
-    width:130rem;
-    border:0.6rem solid #8a574a;
-    border-radius:4rem;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-items:center;
-    margin-bottom:8rem;
-}
-
 
 .textblok3{
     display:flex;
