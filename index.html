@@ -9,12 +9,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <script type="module" defer src="/js/app.js"></script>
     <script src="/js/main.js" defer></script>
     <script src="/js/app.js" defer></script>
-    <script type="module" defer src="/js/app.js"></script>
 </head>
 
 <body>
+
+    <div id="shadow" class="shadow"></div>
+
     <header>
 
         <img class="logo" src="/Img-gifs/muse.png" alt="Logo Muse">
@@ -31,7 +34,16 @@
 
     </section>
 
-
+    <div id="popup" class="popup">
+        <button id="close">&times;</button>
+        <h2>This is the title.</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dolorem officia, doloribus esse consectetur sed optio nostrum perferendis explicabo adipisci animi eligendi
+            deleniti quasi molestiae,
+            consequatur culpa beatae architecto accusantium repellat!
+        </p>
+        <a id="close_button" href="#">Let's Go</a>
+    </div>
 
     <section class="flex-container">
 
@@ -110,7 +122,6 @@
     <section>
         <div id="container"></div>
     </section>
-
 
     <footer>
         <address>

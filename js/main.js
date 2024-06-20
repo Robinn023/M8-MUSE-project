@@ -21,21 +21,49 @@ function toggleDropdown() {
     dropdown.classList.toggle("show");
 }
 
-let knop = document.getElementById("knop");
-let figure = document.getElementById("figure");
-let f = true;
+// let knop = document.getElementById("knop");
+// let figure = document.getElementById("figure");
+// let f = true;
 
-knop.onclick = function(){
-    if(f){
-        figure.style.display = "flex";
-        f = false;
-    }
-    else{
-        figure.style.display = "none";
-        f = true;
-    }
-} 
+// knop.onclick = function(){
+//     if(f){
+//         figure.style.display = "flex";
+//         f = false;
+//     }
+//     else{
+//         figure.style.display = "none";
+//         f = true;
+//     }
+// } 
+
+function disableScroll() {
+ 
+    scrollTop =
+        window.pageYOffset ||
+        document.documentElement.scrollTop;
+    scrollLeft =
+        window.pageXOffset ||
+        document.documentElement.scrollLeft,
+
+        window.onscroll = function () {
+            window.scrollTo(scrollLeft, scrollTop);
+        }};
 
 
+function enableScroll() {
+    window.onscroll = function () { };
+}
+
+const button = document.getElementById("close_button");
+const popup = document.getElementById("popup");
+const shadow = document.getElementById("shadow");
+
+button.addEventListener("click", function() {
+    popup.style.display = "none"
+    shadow.style.opacity = "0%"
+    enableScroll();
+
+});
 
 
+disableScroll()
