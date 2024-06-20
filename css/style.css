@@ -366,3 +366,12 @@ h4 {
     padding: 1rem;
     flex: 33%;
   }
+
+  .sketchfab-embed-wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:40rem;
+  }
+
+  
