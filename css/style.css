@@ -371,7 +371,15 @@ h4 {
     display:flex;
     justify-content:center;
     align-items:center;
-    height:40rem;
+    height:80rem;
   }
 
+  iframe{
+    width:110rem;
+    height:60rem;
+    border-radius:2rem;
+    border:0.5rem solid #79463a;
+  }
+
+  
   
