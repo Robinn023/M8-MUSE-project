@@ -92,51 +92,89 @@ header > h1{
     height: 100vh;
     width: 100vw;
     background-color: black;
-    opacity: 70%;
+    opacity: 85%;
     position: absolute;
 }
 
-.popup{
-    background-color: antiquewhite;
-    width: 450px;
-    padding: 30px 40px;
+.popup {
+    margin-top: auto;
+    width: 60vw;
+    height: 90vh;
+    padding: 1rem 2rem;
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
-    top: 25%;
-    border-radius: 8px;
-    font-family: "Poppins",sans-serif;
+    top: 50%;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    overflow: hidden; 
+    z-index: 1;
+    border-radius: 5rem;
 }
 
-.popup button{
-    display: block;
-    margin: 0 0 20px auto;
-    background-color: transparent;
-    font-size: 30px;
-    color: aliceblue;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    display: none;
+.popup img {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%; 
+    z-index: -1; 
+    
 }
 
-.popup p{
-    font-size: 14px;
-    text-align: justify;
-    margin: 20px 0;
+.popup > h2, .popup > h3, .popup > h4 {
+    max-width: 100%; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    text-align: center;
+    color: #eee;
+    margin: 2rem auto; 
+    padding: 0 1rem; 
+    box-sizing: border-box;
 }
 
-a{
-    display: block;
-    width: 150px;
-    position: relative;
+
+.popup > h2 {
+    font-size: 10rem; 
+    text-align: center;
+}
+
+.popup > h3 {
+    font-size: 8.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.popup > h4 {
+   font-size: 7.5rem;
+   text-align: center;
+}
+
+/* popup Button styling */
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%; 
+    max-width: 40rem;
+    height: 10rem;
     margin: auto;
     text-align: center;
     color: white;
     text-decoration: none;
-    background-color: blue;
-    padding: 5px 0;
+    background-color: #4e2016;
+    border-radius: 6rem;
+    margin-top: 12rem;
+    font-size: 5rem;
+    transition: transform 0.3s, background-color 0.3s;
 }
+
+a:hover {
+    transform: scale(1.1);
+    background-color: #381801;
+}
+
+/*EINDE POPUP STYLING*/
 
 .kaartimage {
     display: flex;
@@ -223,37 +261,6 @@ a{
 
 }
 
-.Infotijdline{    
-    width: 50%;
-    height: 30rem;
-    padding: 4rem;
-    border-radius:4rem;
-    background:#79463a;
-    flex: 28%;
-    margin: 1rem;
-    flex-wrap: wrap;
-
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 3rem;
-    text-align: center;
-  }
-  
-  .flex-item-left {
-    background-color: #f1f1f1;
-    padding: 1rem;
-    flex: 33%;
-  }
-  
-  .flex-item-right {
-    background-color: dodgerblue;
-    padding: 1rem;
-    flex: 33%;
-  }
-
 footer {
     background-color: #4e2016;
     color: white;
@@ -270,22 +277,11 @@ footer {
     background-color: #fff;
 }
 
-.Tijdline{
-    width: 50%;
-    height: 30rem;
-    padding: 4rem;
-    border-radius:4rem;
-    background:#79463a;
-    flex: 28%;
-    margin: 1rem;
-    flex-wrap: wrap;
- 
-}
- 
+
 .Infotijdline {
     display: flex;
-    justify-content: center; /* Nieuwe regel om de inhoud horizontaal te centreren */
-    align-items: center; /* Nieuwe regel om de inhoud verticaal te centreren */
+    justify-content: center;
+    align-items: center; 
     overflow-x: auto;
     padding: 2rem;
     background: #79463a;
@@ -293,9 +289,9 @@ footer {
     box-sizing: border-box;
     margin-bottom: 8rem;
     margin-top: 6rem;
- 
+
 }
- 
+
 .timeline {
     height: 25rem;
     display: flex;
@@ -306,11 +302,12 @@ footer {
     overflow-x: auto;
     align-items: center;
 }
- 
+
 .timeline-item {
     position: relative;
     flex: none;
     width: 57rem;
+<<<<<<< HEAD
     height: 100%;
     text-align: center;
     padding: 1rem;
@@ -332,46 +329,49 @@ footer {
     margin: 0;
     gap: 2rem;
     overflow-x: auto;
+=======
+    height: 30rem;
+>>>>>>> 0d26a0b207edb35e1287eb8b07c3b6de9a456fdc
     align-items: center;
+    text-align: center;
+    padding: 1rem; 
+    background: #5D4E37; 
+    border-radius: 2rem;
+    color: #d8bdb6; 
+    overflow: hidden; 
+    box-sizing: border-box; 
 }
- 
+
 .timeline-item::before {
-    display: none;
+    display: none; 
 }
- 
+
 h4 {
     margin-bottom: 4rem;
     font-size: 3rem;
 }
- 
+
 .timeline-content > p{
+<<<<<<< HEAD
     font-size: 2rem;
+=======
+    font-size: 2.3rem;
+>>>>>>> 0d26a0b207edb35e1287eb8b07c3b6de9a456fdc
 }
- 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 30px;
-    text-align: center;
-  }
- 
-  .flex-item-left {
-    background-color: #f1f1f1;
-    padding: 1rem;
-    flex: 33%;
-  }
- 
-  .flex-item-right {
-    background-color: dodgerblue;
-    padding: 1rem;
-    flex: 33%;
-  }
 
   .sketchfab-embed-wrapper{
     display:flex;
     justify-content:center;
     align-items:center;
-    height:40rem;
+    height:80rem;
   }
 
+  iframe{
+    width:110rem;
+    height:60rem;
+    border-radius:2rem;
+    border:0.5rem solid #79463a;
+  }
+
+  
   
