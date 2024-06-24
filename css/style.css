@@ -223,37 +223,6 @@ a{
 
 }
 
-.Infotijdline{    
-    width: 50%;
-    height: 30rem;
-    padding: 4rem;
-    border-radius:4rem;
-    background:#79463a;
-    flex: 28%;
-    margin: 1rem;
-    flex-wrap: wrap;
-
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 3rem;
-    text-align: center;
-  }
-  
-  .flex-item-left {
-    background-color: #f1f1f1;
-    padding: 1rem;
-    flex: 33%;
-  }
-  
-  .flex-item-right {
-    background-color: dodgerblue;
-    padding: 1rem;
-    flex: 33%;
-  }
-
 footer {
     background-color: #4e2016;
     color: white;
@@ -270,22 +239,11 @@ footer {
     background-color: #fff;
 }
 
-.Tijdline{
-    width: 50%;
-    height: 30rem;
-    padding: 4rem;
-    border-radius:4rem;
-    background:#79463a;
-    flex: 28%;
-    margin: 1rem;
-    flex-wrap: wrap;
- 
-}
- 
+
 .Infotijdline {
     display: flex;
-    justify-content: center; /* Nieuwe regel om de inhoud horizontaal te centreren */
-    align-items: center; /* Nieuwe regel om de inhoud verticaal te centreren */
+    justify-content: center;
+    align-items: center; 
     overflow-x: auto;
     padding: 2rem;
     background: #79463a;
@@ -293,12 +251,11 @@ footer {
     box-sizing: border-box;
     margin-bottom: 8rem;
     margin-top: 6rem;
- 
+
 }
- 
+
 .timeline {
     display: flex;
-   
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -306,66 +263,34 @@ footer {
     overflow-x: auto;
     align-items: center;
 }
- 
+
 .timeline-item {
     position: relative;
     flex: none;
     width: 57rem;
-    height: 35rem;
-    text-align: center;
-    padding: 1rem;
-    background: #5D4E37;
-    border-radius: 2rem;
-    color: #d8bdb6;
-    overflow: hidden;
-    box-sizing: border-box;
-}
- 
-.timeline-item::before {
-    display: none;
-}
- 
-.timeline {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    gap: 2rem;
-    overflow-x: auto;
+    height: 30rem;
     align-items: center;
+    text-align: center;
+    padding: 1rem; 
+    background: #5D4E37; 
+    border-radius: 2rem;
+    color: #d8bdb6; 
+    overflow: hidden; 
+    box-sizing: border-box; 
 }
- 
+
 .timeline-item::before {
-    display: none;
+    display: none; 
 }
- 
+
 h4 {
     margin-bottom: 4rem;
     font-size: 3rem;
 }
- 
+
 .timeline-content > p{
-    font-size: 2.6rem;
+    font-size: 2.3rem;
 }
- 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 30px;
-    text-align: center;
-  }
- 
-  .flex-item-left {
-    background-color: #f1f1f1;
-    padding: 1rem;
-    flex: 33%;
-  }
- 
-  .flex-item-right {
-    background-color: dodgerblue;
-    padding: 1rem;
-    flex: 33%;
-  }
 
   .sketchfab-embed-wrapper{
     display:flex;
