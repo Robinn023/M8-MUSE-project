@@ -75,12 +75,12 @@ header > h1{
 }
 
 .highlighted {
-    background-color: #5D4E37; 
+    background-color: #38180e; 
     font-weight: bold; 
 }
 
 .dropdown-content a:hover {
-    background-color: #929281;
+    background-color: #713e32;
 }
 
 .dropdown-content.show {

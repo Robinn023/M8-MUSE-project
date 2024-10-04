@@ -60,7 +60,7 @@ const shadow = document.getElementById("shadow");
 
 button.addEventListener("click", function() {
     popup.style.display = "none"
-    shadow.style.opacity = "0%"
+    shadow.style.display = "none"
     enableScroll();
 
 });
